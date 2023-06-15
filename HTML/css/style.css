@@ -50,7 +50,8 @@
 }
 
 body {
-  color: #23003b;
+  /*color: #23003b;*//*COLOR ORIGINAL DE LA PAGINA*/
+  color: rgb(0, 0, 0);/*CAMBIAR EL COLOR DE LAS LETRAS AL QUE QUIERA MATHIPE*/
   line-height: 1.3;
   font-weight: 400;
   font-size: 14px;
@@ -99,16 +100,18 @@ span, a, a:hover {
   position: absolute;
   bottom: 0;
   left: calc(50% - 60px);
-  background: #7146f3;
-  background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#7146f3), to(transparent));
-  background: linear-gradient(to right, transparent, #7146f3, transparent);
+ /* background: #7146f3;*//*COLOR ORIGINAL*/
+  background: red;
+  background: -webkit-gradient(linear, left top, right top, from(transparent),color-stop(red) /*color-stop(#7146f3) COLOR ORIGINAL*/, to(transparent));
+  background: linear-gradient(to right, transparent, red/*#7146f3 COLOR ORIGINAL, color de lines de subrayado*/, transparent);
 }
 .section-head h4 {
   font-size: 30px;
 }
 
 .bg-gray {
-  background: #fafafa;
+  /*background: #fafafa;*/
+  background-color: rgba(157, 213, 235, 0.767);
   background-image: url(../img/pattern.png);
   background-repeat: repeat;
 }
@@ -179,7 +182,8 @@ span, a, a:hover {
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: #7146f3;
+  /*background: #7146f3;*//*color original*/
+  background: red;
 }
 
 .owl-theme .owl-nav [class*=owl-] {
@@ -335,14 +339,14 @@ span, a, a:hover {
   content: '';
   width: 15px;
   height: 2px;
-  background: #7146f3;
+  background: #7bdaf7;
   position: absolute;
   bottom: 0px;
   left: 10px;
   opacity: 0;
 }
 .navbar .navbar-nav .active {
-  color: #7146f3 !important;
+  color: #7bdaf7 !important;
 }
 .navbar .navbar-nav .active:after {
   opacity: 1;
@@ -435,7 +439,7 @@ span, a, a:hover {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: #7146f3;
+  background: #7bdaf7;
   position: absolute;
   top: 10px;
   right: 0;
@@ -468,7 +472,7 @@ span, a, a:hover {
   color: #999;
 }
 .hero .intro h5 {
-  color: #7146f3;
+  color: #000000;
   margin-bottom: 10px;
 }
 .hero .intro p {
@@ -483,9 +487,9 @@ span, a, a:hover {
   position: absolute;
   bottom: 0;
   left: calc(50% - 60px);
-  background: #7146f3;
-  background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#7146f3), to(transparent));
-  background: linear-gradient(to right, transparent, #7146f3, transparent);
+  background: #7bdaf7;
+  background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#7bdaf7), to(transparent));
+  background: linear-gradient(to right, transparent, #7bdaf7, transparent);
 }
 .hero .item {
   padding: 60px 10px;
@@ -524,7 +528,7 @@ span, a, a:hover {
   transition: all .5s;
 }
 .hero .item .icon {
-  color: #7146f3;
+  color: #000000;
   font-size: 35px;
   width: 80px;
   height: 80px;
@@ -554,7 +558,7 @@ span, a, a:hover {
      [ 06 Video ]
 -----------------------------------------------------------------*/
 .video .content h5 {
-  color: #7146f3;
+  color: #7bdaf7;
   font-size: 18px;
   margin-bottom: 10px;
 }
@@ -569,7 +573,7 @@ span, a, a:hover {
   font-weight: 500;
 }
 .video .content li .icon {
-  color: #7146f3;
+  color: #7bdaf7;
   padding-right: 10px;
 }
 .video .content .butn {
@@ -582,7 +586,7 @@ span, a, a:hover {
   content: '';
   width: 0;
   height: 0;
-  border-top: 200px solid #7146f3;
+  border-top: 200px solid #7bdaf7;
   border-left: 200px solid transparent;
   position: absolute;
   right: -15px;
@@ -603,7 +607,7 @@ span, a, a:hover {
   top: calc(50% - 40px);
   left: calc(50% - 40px);
   text-align: center;
-  background: #7146f3;
+  background: green;
   font-size: 35px;
   color: #d8d6d6;
 }
@@ -826,9 +830,9 @@ span, a, a:hover {
   cursor: pointer;
 }
 .works .filtering .active {
-  background: #7146f3;
-  background: -webkit-gradient(linear, left top, right top, from(#7146f3), to(#6976c5));
-  background: linear-gradient(to right, #7146f3, #6976c5);
+  background: #46cbf3;
+  background: -webkit-gradient(linear, left top, right top, from(#46cbf3), to(#c56997));
+  background: linear-gradient(to right, #46cbf3, #c56997);
   -webkit-box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.2);
   color: #fff;
@@ -1324,6 +1328,7 @@ footer p {
 @media screen and (max-width: 991px) {
   .mb-md50 {
     margin-bottom: 50px !important;
+    
   }
 
   .mb-md30 {
